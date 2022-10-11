@@ -3,7 +3,7 @@ import {data} from '../../helpers/data'
 
 const Counter = () => {
   return (
-    <div>Number of Employees: {data.length}</div>
+    <div  style={{fontWeight:'bolder'}}>Number of Employees: {data.length}</div>
   )
 }
 
